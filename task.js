@@ -13,6 +13,6 @@ console.log(res2);
 //Task3 IP Address
 
 var ipAddress="17.244.209.118";
-var pattern=/\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}/;
+var pattern=/^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
 var res3=ipAddress.match(pattern);
 console.log(res3);
